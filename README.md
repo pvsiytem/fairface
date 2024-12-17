@@ -1,3 +1,5 @@
+(EXPERIMENTATION FOR USING SIFT/ORB INSTEAD OF CNN)
+
 Online link for the deployment: https://fairface-kvynyj3f8bbemqqqiqjjwb.streamlit.app/
 
 
