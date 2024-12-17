@@ -1,5 +1,7 @@
 Online link for the deployment: https://fairface-kvynyj3f8bbemqqqiqjjwb.streamlit.app/
 
+
+Alt:
 1. Install the requirements
 
    ```
