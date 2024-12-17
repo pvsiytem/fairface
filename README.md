@@ -1,4 +1,4 @@
-Online link: https://fairface-kvynyj3f8bbemqqqiqjjwb.streamlit.app/
+Online link for the deployment: https://fairface-kvynyj3f8bbemqqqiqjjwb.streamlit.app/
 
 1. Install the requirements
 
