@@ -3,4 +3,4 @@ opencv-python
 pandas
 numpy
 tensorflow
-tensorflow.keras.models
+tensorflow-keras
