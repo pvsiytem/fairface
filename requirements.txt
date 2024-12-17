@@ -1,5 +1,5 @@
 streamlit
-opencv-python
+opencv-python-headless
 pandas
 numpy
 tensorflow==2.18.0
