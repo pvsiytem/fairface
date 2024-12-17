@@ -16,6 +16,16 @@ camera_image = st.camera_input("Take a picture")
 # Option 2: File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
+labels = {
+    0: 'Black',
+    1: 'East Asian',
+    2: 'Indian',
+    3: 'Latino Hispanic',
+    4: 'Middle Eastern',
+    5: 'Southeast Asian',
+    6: 'White',  # Replace with actual labels from your model
+}
+
 # Load and preprocess the image from either source
 if camera_image or uploaded_file:
     file_bytes = None
@@ -51,7 +61,10 @@ if camera_image or uploaded_file:
         if preprocessed_image is not None:
             # Make a prediction
             prediction = model.predict(preprocessed_image)
+            predicted_class = np.argmax(prediction)
+            predicted_label = labels.get(predicted_class, "Unknown label")
 
             # Display prediction
-            st.write(f"Prediction: {np.argmax(prediction)}")
+            st.write(f"Prediction: {predicted_label}")
             st.write(f"Confidence: {np.max(prediction) * 100:.2f}%")
+
