@@ -1,4 +1,4 @@
-(EXPERIMENTATION FOR USING SIFT/ORB INSTEAD OF CNN)
+(EXPERIMENTATION FOR USING SIFT/ORB INSTEAD OF CNN, streamlit_app.py uses ORB)
 
 Online link for the deployment: https://fairface-kvynyj3f8bbemqqqiqjjwb.streamlit.app/
 
